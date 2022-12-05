@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/$PROJECT_ID/firebase', '.']
+  args: ['build', '-t', 'europe-docker.pkg.dev/$PROJECT_ID/firebase', '.']
 images:
-- 'gcr.io/$PROJECT_ID/firebase'
+- 'europe-docker.pkg.dev/$PROJECT_ID/firebase'
 tags: ['firebase']
